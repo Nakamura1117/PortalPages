@@ -1,7 +1,49 @@
+body{
+    background-color: #e0e0fa;
+}
 h1{
-    color: #f00;
+    font-style: italic;
 }
 
-a {
+#flexbox{
+    display: flex;
+}
+
+#left_menu{
+    margin: 1%;
+    padding: 10px;
+    width: 15%;
+    border-right: solid #000 1px;
+    /* border: solid; */   
+}
+
+#gridbox_menu{
+    display: grid;
+}
+
+#profile{
+    font: 10px;
+}
+
+#SiteNav{
+    border-left: ridge 1px #000;
+}
+.now{
     background-color: #ff0;
+    text-decoration: underline;
+}
+
+#right_text{
+    margin: 1%;
+    padding: 10px;
+    width: 75%;
+    
+}
+
+footer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: inset 2px;
 }

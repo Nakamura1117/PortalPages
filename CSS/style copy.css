@@ -25,24 +25,44 @@ img {
     margin: auto;
 }
 
-.game_gallery {
-    margin: auto;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 50% 1fr;
+#flexbox {
+    display: flex;
 }
 
-.game_gallery li {
-    width: 90%;
+#left_menu {
+    margin: 1%;
     padding: 10px;
-    border: #000 solid;
-    overflow: hidden;
-    margin-bottom: 20px;
+    width: 15%;
+    border-right: solid #000 1px;
+    /* border: solid; */
 }
 
+#gridbox_menu {
+    display: grid;
+}
+
+#profile {
+    font: 10px;
+}
+
+#SiteNav {
+    border-left: ridge 1px #000;
+}
+
+.now {
+    background-color: #ff0;
+    text-decoration: underline;
+}
+
+#right_text {
+    margin: 1%;
+    padding: 10px;
+    width: 75%;
+
+}
 
 footer {
-    margin-top: 15px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;

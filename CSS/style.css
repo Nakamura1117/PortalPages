@@ -18,6 +18,8 @@ h2 {
 img {
     border-right: #000 solid 1px;
     border-bottom: #000 solid;
+    width: 80%;
+    height: auto;
 }
 
 .center {
@@ -38,6 +40,9 @@ img {
     border: #000 solid;
     overflow: hidden;
     margin-bottom: 20px;
+
+    place-content: center;
+    place-items: center;
 }
 
 

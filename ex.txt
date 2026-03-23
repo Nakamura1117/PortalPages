@@ -1,2 +1,7 @@
 説明用テキスト
 
+
+
+ゲームURL
+Scratch シューティングゲーム
+https://scratch.mit.edu/projects/1269326718/
